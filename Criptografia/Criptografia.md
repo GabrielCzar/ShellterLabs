@@ -17,12 +17,11 @@ Já sabemos que a chave tem 8 letras!
 ```DLECYBRXNPKPYXVVOPXSDAICDAIC```
 
 <details><summary>_Resposta_</summary>
-```
+
     A chave é 'shellter'.
 
     Usando a cifra de Viginere:
-    
+    ```python
     >> LEARNINGVIGENEREWITHSHELLTER
-
-```
+    ```
 </details>
