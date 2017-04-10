@@ -13,4 +13,4 @@ Já sabemos que a chave tem 8 letras!
 
 - The Hendersons
 
-Bob lhe enviou está imagem. Deve ser uma espécie de boas vindas ao grupo da operação! (20 points)
+Bob lhe enviou está imagem. Deve ser uma espécie de boas vindas ao grupo da operação!
