@@ -1,0 +1,6 @@
+500: \xEB\xFE is to x86 as _____ is to PowerPPC (answer is 4 bytes)
+This jumped out as an op-code comparison. First step was to figure out which assembly instruction it was:
+$ echo -ne "\xEB\xFE" | ndisasm -
+00000000  EBFE              jmp short 0x0
+To compare this to another architecture, we needed to have a good description of specifically what this instruction does. The clearest description was "unconditional jump to relative offset returning to current instruction". Basically, loop forever.
+PPC doesn't use "jmp" instructions; it uses "branch" instructions instead. While digging out the PPC assembly references, we generated a few branch instructions in assembly and fed them to a PPC compiler and stared at them in gdb. Soon we found "unconditional branch to relative address 0": "b $+0". Dumping the bytes, this was \x48\x00\x00\x00.

@@ -19,3 +19,19 @@ Usando a decodificação da cifra de Viginere:
 
 Utilizando a tabela de codigo morse é possivel perceber que a resposta é:
 ```WELC0ME 7O 7HE HNR4```
+
+- Shift Cipher 01
+
+25 attempts
+
+- ASCII Encode
+
+usando a tabela no terminal
+```man ascii```
+ consegue-se decodificar e encontrar
+ ```learning_enconde```
+
+
+- Shift Cipher 02
+Utilizando um script automatizado é possivel encontrar
+```HACKING IS GREAT```
