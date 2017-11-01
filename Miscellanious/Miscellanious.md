@@ -22,4 +22,4 @@ What is the name of the command used to add a user to a OSX box?
 
 Qual é o nome da política que permite aos servidores declararem que o navegador deve apenas interagir usando conexões seguras HTTPS?
 
-``` Hipertext Strict Transport Security ```
+``` HTTP Strict Transport Security ```
