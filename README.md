@@ -2,7 +2,7 @@
 Exercices from Shellter
 
 - [Criptografia](Criptografia/Criptografia.md)
-- [Web](Web/Web.md)
+- [Web](Web/web.md)
 - [Miscellanious](Miscellanious/Miscellanious.md)
 - [Forensics](Forense/Forense.md)
 - [Remote Exploitation](Remote_exploitation/Remote_exploitation.md)
